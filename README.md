@@ -21,5 +21,11 @@ For debugging error, see
 -------------------
 
 To see how local package is developed, see the example of `hello-src`
-package.
+package. 
+
+Command for entering `nix-env` build environment:
+
+`nix-shell custom-packages.nix -A sibiGHC `
+
+(Note that `nix-build --run-env` has been renamed to `nix-shell`).
 
